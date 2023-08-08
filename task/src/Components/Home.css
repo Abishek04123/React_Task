@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: blueviolet;
+}
+
+button {
+    background-color: pink;
+    font-size: 17px;
+}
+
+div {
+    width: 100%;
+}
