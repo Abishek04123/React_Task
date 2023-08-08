@@ -10,6 +10,7 @@ nav {
 button {
     background-color: pink;
     font-size: 17px;
+    border-radius: 10%;
 }
 
 div {

@@ -7,17 +7,15 @@ import Profile from './Components/Profile.js';
 
 function App() {
   return (
-    <div className="main">
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}>
         <Route index element={<Profile/>} /> 
-        <Route path="Achievements" element={<Achievements/>} />
-        <Route path="Projects" element={<Projects/>} />
+        <Route path ="Achievements" element={<Achievements/>} />
+        <Route path ="Projects" element={<Projects/>} />
         </Route>
       </Routes>
       </BrowserRouter>
-    </div>
   );
 }
 
