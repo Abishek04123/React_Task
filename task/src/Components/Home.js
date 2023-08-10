@@ -9,6 +9,7 @@ const Home = () => {
             <Link to="/"><button>Profile</button></Link>
             <Link to="/projects"><button>Projects</button></Link>
             <Link to="/achievements"><button>Achievements</button></Link>
+            <Link to="/contact"><button>Contact Me</button></Link>
         </nav>
   
         <Outlet />

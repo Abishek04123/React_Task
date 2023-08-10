@@ -4,6 +4,7 @@ import Home from './Components/Home.js';
 import Achievements from './Components/Achievements.js';
 import Projects from './Components/Projects.js';
 import Profile from './Components/Profile.js';
+import Contact from './Components/Contact.js';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route index element={<Profile/>} /> 
         <Route path ="Achievements" element={<Achievements/>} />
         <Route path ="Projects" element={<Projects/>} />
+        <Route path ="Contact" element={<Contact/>} />
         </Route>
       </Routes>
       </BrowserRouter>
