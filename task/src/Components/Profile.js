@@ -8,7 +8,7 @@ const Profile = () => {
             <div className='head'>
 
             <div className='maintext'>
-                <i><h2>Abi R</h2></i>
+                <i><h2>Abishek R</h2></i>
                 <i><b><p>Artificial Intelligence and Data Science</p></b></i>
             </div>
             
